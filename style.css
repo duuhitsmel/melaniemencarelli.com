@@ -1,0 +1,64 @@
+.container {
+	width:940px;
+}
+
+.container-header {
+	width: 100%;
+}
+
+.header-image {
+	width: 100%;
+}
+
+.header-image-box {
+	width:100%;
+	height:648px;
+	overflow: hidden;
+	background: url(img/hero.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.header-text {
+	color:white;
+	font-size: 60px;
+	width: 577px;
+	margin-top: 200px;
+	text-shadow:0 3px 25px #000000;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 140%;
+	
+}
+
+.navbar-header {
+	color: ;
+}
+
+.navbar-default {
+	background-color: white;
+	height: 70px;
+}
+
+.our-menu-item {
+	width: 	150px;
+	text-align: center;
+	color: red;
+	padding-top: 22px;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover{
+}
+
+.navbar-default .navbar-nav>li{
+		padding-top: 8px;
+}
+
+.navbar>.container .navbar-brand {
+		padding-top: 22px;
+}
+
