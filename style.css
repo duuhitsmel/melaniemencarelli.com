@@ -2,8 +2,9 @@
 	width:940px;
 }
 
-.600-container {
+.container-600 {
 	width: 600px;
+	margin: 0 auto;
 }
 
 .container-header {
@@ -52,9 +53,6 @@ img.header-logo {
 	
 }
 
-.navbar-header {
-	color: ;
-}
 
 .navbar-default {
 	background-color: white;
@@ -108,4 +106,40 @@ h3.quote-marks {
 	font-size: 12px;
 	letter-spacing: 1px;
 	color: #949494;
+	padding-bottom: 25px;
+}
+
+div.horizontalRule {
+    min-height: 1px;
+    clear:both; width:100%;
+    border-bottom:1px solid #d1d1d1;
+    height:1px; padding-top:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.about-me {
+	padding-top: 25px;
+}
+
+h3.about-left-copy {
+	padding-top: 50px;
+	font-family: 'Crimson Text', serif;
+	font-size: 35px;
+	padding-top: 0;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.about-copy {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.about-quote-bg {
+	padding-left: 15px;
 }
