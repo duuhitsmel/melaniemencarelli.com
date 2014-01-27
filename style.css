@@ -36,6 +36,11 @@
 	margin-bottom: 0;
 }
 
+img.header-logo {
+	padding-top: 0;
+	width: 250px;
+}
+
 .header-text {
 	color:white;
 	font-size: 60px;
