@@ -2,6 +2,10 @@
 	width:940px;
 }
 
+.600-container {
+	width: 600px;
+}
+
 .container-header {
 	width: 100%;
 }
@@ -15,6 +19,15 @@
 	height:648px;
 	overflow: hidden;
 	background: url(img/hero.JPG);
+	background-position: center;
+	background-size: cover;
+}
+
+.header-image-about {
+	width:100%;
+	height:350px;
+	overflow: hidden;
+	background: url(img/flowers.png);
 	background-position: center;
 	background-size: cover;
 }
@@ -44,10 +57,12 @@
 }
 
 .our-menu-item {
-	width: 	150px;
+	font-family: 'Open Sans', sans-serif;
+	width: 	160px;
 	text-align: center;
 	color: red;
 	padding-top: 22px;
+	letter-spacing: 1px;
 }
 
 
@@ -62,3 +77,30 @@
 		padding-top: 22px;
 }
 
+.header-logo
+{
+	width:100px;
+}
+
+.quote {
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	font-size: 35px;
+	padding-top: 0;
+}
+
+h3.quote-marks {
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	font-size: 35px;
+	color: #73373b;
+	padding-bottom: 0;
+}
+
+.quote-author {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #949494;
+}
