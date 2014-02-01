@@ -134,6 +134,15 @@ h1.header-text {
 	padding-top: 0;
 }
 
+.blog-quote {
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	font-style: italic;
+	font-size: 35px;
+	padding-top: 0;
+	color: #73373b;
+}
+
 .home-quote {
 	font-family: 'Crimson Text', serif;
 	text-align: center;
@@ -161,7 +170,7 @@ h3.quote-marks {
 }
 
 .quote-author {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-size: 12px;
 	letter-spacing: 1px;
