@@ -1,3 +1,4 @@
+
 .container {
 	width:940px;
 }
@@ -43,9 +44,9 @@
 
 .header-image-contact {
 	width:100%;
-	height:350px;
+	height:550px;
 	overflow: hidden;
-	background: url(img/wheat2.jpg);
+	background: url(img/wheat.jpg);
 	background-position: center;
 	background-size: cover;
 }
@@ -63,11 +64,12 @@ h1.header-text {
 	clear: both;
 	text-align: center;
 	color:white;
+	margin: 0 auto;
 	font-size: 60px;
-	width: 577px;
-	margin-top: 200px;
+	width: 640px;
+	margin-top: 170px;
 	text-shadow:0 3px 25px #000000;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 140%;
 	
 }
@@ -109,11 +111,10 @@ h1.header-text {
 }
 
 .navbar-nav>li>a:hover {
-	color: rgba(0, 0, 0, 0.5);
-	background-color: red;
+	background-color: inherit;
+	color: rgba(255,255,255,.9);
 	text-decoration: none;
 }
-
 .navbar-brand {
 	padding-right: 100px;
 }
@@ -127,8 +128,20 @@ h1.header-text {
 	width:100px;
 }
 
+.about-header {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 5px;
+	color: white;
+	padding-bottom: 50px;
+	position: relative;
+	top: 140px;
+}
+
 .quote {
 	font-family: 'Crimson Text', serif;
+	font-style: italic;
 	text-align: center;
 	font-size: 35px;
 	padding-top: 0;
@@ -140,7 +153,8 @@ h1.header-text {
 	font-style: italic;
 	font-size: 35px;
 	padding-top: 0;
-	color: #73373b;
+	color: #c9bc99;
+	line-height: 45px;
 }
 
 .home-quote {
@@ -164,7 +178,7 @@ h3.quote-marks {
 	font-family: 'Crimson Text', serif;
 	text-align: center;
 	font-size: 35px;
-	color: #73373b;
+	color: #c9bc99;
 	padding-bottom: 0;
 	padding-top: 40px;
 }
@@ -180,7 +194,9 @@ h3.quote-marks {
 
 div.horizontalRule {
     min-height: 1px;
-    clear:both; width:100%;
+	margin: 0 auto;
+	clear: both;
+	width: 90%;
     border-bottom:1px solid #d1d1d1;
     height:1px; padding-top:5px;
     margin-top:5px;
@@ -189,6 +205,7 @@ div.horizontalRule {
 
 .about-me {
 	padding-top: 50px;
+	padding-left: 50px;
 }
 
 h3.about-left-copy {
