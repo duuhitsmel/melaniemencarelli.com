@@ -1,4 +1,7 @@
-
+.blog-image {
+	width:600px;
+	padding-bottom: 25px;
+}
 .container {
 	width:940px;
 }
@@ -51,6 +54,24 @@
 	background-size: cover;
 }
 
+.header-image-work {
+	width:100%;
+	height:550px;
+	overflow: hidden;
+	background: url(img/wispy.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.header-image-blog {
+	width:100%;
+	height:550px;
+	overflow: hidden;
+	background: url(img/spring-shot.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
 .navbar {
 	margin-bottom: 0;
 }
@@ -67,7 +88,7 @@ h1.header-text {
 	margin: 0 auto;
 	font-size: 60px;
 	width: 640px;
-	margin-top: 170px;
+	margin-top: 15%;
 	text-shadow:0 3px 25px #000000;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 140%;
@@ -112,7 +133,7 @@ h1.header-text {
 
 .navbar-nav>li>a:hover {
 	background-color: inherit;
-	color: rgba(255,255,255,.9);
+	color: rgba(255,255,255,.8);
 	text-decoration: none;
 }
 .navbar-brand {
@@ -139,12 +160,32 @@ h1.header-text {
 	top: 140px;
 }
 
-.quote {
+.quote-contact {
 	font-family: 'Crimson Text', serif;
 	font-style: italic;
 	text-align: center;
 	font-size: 35px;
 	padding-top: 0;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.quote {
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 35px;
+	padding-top: 30px;
+}
+
+.social-link {
+	padding-top: 30px;
+	text-align: ;
+	margin: 0 auto;
+}
+
+.social-link a {
+	color: greys;
 }
 
 .blog-quote {
@@ -183,6 +224,15 @@ h3.quote-marks {
 	padding-top: 40px;
 }
 
+.quote-contact {
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	font-size: 35px;
+	color: #c9bc99;
+	padding-bottom: 0;
+	padding-top: 40px;
+}
+
 .quote-author {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
@@ -190,6 +240,24 @@ h3.quote-marks {
 	letter-spacing: 1px;
 	color: #949494;
 	padding-bottom: 50px;
+}
+
+.continue-blog {
+	padding-top: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #c9bda5;
+	padding-bottom: 25px;
+}
+
+.date-stamp {
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #949494;
+	padding-bottom: 0px;
+	padding-top: 10px;
 }
 
 div.horizontalRule {
@@ -215,6 +283,14 @@ h3.about-left-copy {
 	padding-top: 0;
 }
 
+.blog-title {
+	padding-top: 50px;
+	font-family: 'Crimson Text', serif;
+	font-size: 35px;
+	padding-top: 0;
+	color: #af3147;
+}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -223,6 +299,11 @@ p {
 
 .about-copy {
 	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.blog-copy {
+	padding-top: 25px;
 	padding-bottom: 50px;
 }
 
