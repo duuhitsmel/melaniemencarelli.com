@@ -256,7 +256,7 @@ h3.quote-marks {
 	font-size: 12px;
 	letter-spacing: 1px;
 	color: #949494;
-	padding-bottom: 0px;
+	padding-bottom: 40px;
 	padding-top: 10px;
 	text-transform: uppercase;
 }
@@ -290,6 +290,15 @@ h3.about-left-copy {
 	font-size: 35px;
 	padding-top: 0;
 	color: #af3147;
+}
+
+.blog-title a {
+	padding-top: 50px;
+	font-family: 'Crimson Text', serif;
+	font-size: 35px;
+	padding-top: 0;
+	color: #af3147;
+	text-decoration: underline;
 }
 
 p {
