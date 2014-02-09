@@ -256,9 +256,13 @@ h3.quote-marks {
 	font-size: 12px;
 	letter-spacing: 1px;
 	color: #949494;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 	padding-top: 10px;
 	text-transform: uppercase;
+}
+
+.post-body {
+	padding-bottom: 10px;
 }
 
 div.horizontalRule {
@@ -292,7 +296,7 @@ h3.about-left-copy {
 	color: #af3147;
 }
 
-.blog-title a {
+a.blog-title {
 	padding-top: 50px;
 	font-family: 'Crimson Text', serif;
 	font-size: 35px;
