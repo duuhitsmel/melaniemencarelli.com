@@ -258,6 +258,7 @@ h3.quote-marks {
 	color: #949494;
 	padding-bottom: 0px;
 	padding-top: 10px;
+	text-transform: uppercase;
 }
 
 div.horizontalRule {
