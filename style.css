@@ -276,6 +276,17 @@ div.horizontalRule {
     margin-bottom:5px;
 }
 
+div.horizontalRule {
+    min-height: 1px;
+	margin: 0 auto;
+	clear: both;
+	width: 90%;
+    border-bottom:1px solid #d1d1d1;
+    height:1px; padding-top:5px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
 .about-me {
 	padding-top: 50px;
 	padding-left: 50px;
