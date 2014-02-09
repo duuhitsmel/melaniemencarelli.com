@@ -296,13 +296,13 @@ h3.about-left-copy {
 	color: #af3147;
 }
 
-a.blog-title {
+blog-title a:hover{
 	padding-top: 50px;
 	font-family: 'Crimson Text', serif;
 	font-size: 35px;
 	padding-top: 0;
 	color: #af3147;
-	text-decoration: underline;
+	text-decoration: hover;
 }
 
 p {
