@@ -212,7 +212,7 @@ h1.header-text {
 	font-style: italic;
 	font-size: 35px;
 	padding-top: 0;
-	color: #c9bc99;
+	color: #af3147;
 	line-height: 45px;
 }
 
@@ -343,8 +343,10 @@ div.horizontalRule-blog {
 h3.about-left-copy {
 	padding-top: 50px;
 	font-family: 'Crimson Text', serif;
+	font-style: italic;
 	font-size: 35px;
 	padding-top: 0;
+	color: #af3147;
 }
 
 .blog-title {
