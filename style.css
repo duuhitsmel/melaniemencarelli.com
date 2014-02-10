@@ -287,6 +287,17 @@ div.horizontalRule-2 {
     margin-bottom:25px;
 }
 
+div.horizontalRulea {
+    min-height: 1px;
+	margin: 0 auto;
+	clear: both;
+	width: 100%;
+    border-bottom:1px solid #d1d1d1;
+    height:1px; 
+    padding-top:5px;
+    margin-bottom:25px;
+}
+
 div.horizontalRule-blog {
     min-height: 1px;
 	margin: 0 auto;
@@ -326,7 +337,7 @@ blog-title a:hover{
 	text-decoration: hover;
 }
 
-.single-blog-post {
+.container-600.single-blog-post {
 	padding-top:30px;
 }
 
