@@ -36,9 +36,9 @@
 		{block:Posts}
 			<article class="container-600 single-blog-post" {block:Date} data-post-id="post_{PostID}" {/block:Date}>	
 				<div class="row">
-				<div class="horizontalRule-3" runat="server"></div>
 					<div class="col-md-12">
 						{block:Text}
+						<div class="horizontalRule-3" runat="server"></div>
 							{block:Title}
 								<h3><a href="{Permalink}" class="blog-title">{Title}</a></h3>
 							{/block:Title}
