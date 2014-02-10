@@ -287,6 +287,16 @@ div.horizontalRule-2 {
     margin-bottom:25px;
 }
 
+div.horizontalRule-blog {
+    min-height: 1px;
+	margin: 0 auto;
+	clear: both;
+	width: 90%;
+    border-bottom:1px solid #d1d1d1;
+    height:1px; padding-top:5px;
+    margin-bottom:25px;
+}
+
 .about-me {
 	padding-top: 50px;
 	padding-left: 50px;
@@ -316,7 +326,7 @@ blog-title a:hover{
 	text-decoration: hover;
 }
 
-.container-600 single-blog-post {
+.single-blog-post {
 	padding-top:30px;
 }
 
