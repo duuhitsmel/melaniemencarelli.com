@@ -101,13 +101,13 @@ footer {
 
 #foo-men {
   position: relative;
-  top: 10px;
+  top: 15px;
   margin: 0;
 }
 
 #foo-men li {
   display: inline;
-  margin-right: 30px;
+  margin-right: 15px;
 }
 
 #foo-bot-bac {
