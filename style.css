@@ -291,16 +291,36 @@ p.email-copy {
 	padding: 0;
 }
 
+.padding-l-15 {
+	padding-left: 8px;	
+}
+
+.home-box {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 16px 25px 13px;
+	border: 1px solid #000;
+	text-align: center;
+	width: 220px;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
 .full-width-box {
 	background-color: grey;
 	margin-bottom: 15px;
 	margin-top: 15px;
 	float: left;
-	width: 500px;
+	width: 100%;
 }
 
 .half-width-square {
-	width: 242px;
+	width: 392px;
 	margin: 0;
 	float: left;
 }
@@ -313,12 +333,6 @@ p.email-copy {
 	height: 242px;
 }
 
-.sidebar {
-	width: 200px;
-	float: right;
-	background-color: pink;
-	margin: 15px 0 15px 0;
-}
 
 /*END HOME NEWS SECTION */
 
