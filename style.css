@@ -18,7 +18,26 @@
 	margin-top: 100px;
 }
 .container {
-	width:940px;
+	width:800px;
+}
+/*TYPOGRAPHY (HOME) */
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 50px;
+	font-size: 35px;
+	text-align: center;
+	margin: 70px 0 70px 0;
+	color: #c36162;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 40px;
+	font-size: 25px;
+	text-align: center;
+	margin: 70px 0 70px 0;
+	color: #c36162;
 }
 
 .container-600 {
@@ -38,6 +57,14 @@
 	margin: 0 auto;
 	background-color: white;
 }
+
+.content-container-home {
+	bottom: 100px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: black;
+}
+
 
 /* Footer */
 
@@ -191,6 +218,78 @@ footer {
   }
 /*END FOOTER */
 
+/*****HOME *****/
+
+/*Email capture*/
+
+#email-banner {
+	width: 100%;
+	height: 125px;
+	background-color: rgba(255,255,255,.3);
+	margin:	0 auto;
+	position: absolute;
+	bottom: 54px;
+}
+
+.box-800 {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.form-box {
+	width: 800px;
+}
+
+p.email-copy {	
+	font-family: 'Montserrat', sans-serif;
+	size: 9px;
+	color: white;
+	padding-top: 20px;
+	letter-spacing: 2px;
+}
+
+.moonray_form_field_wrapper input[type="text"], .moonray_form_field_wrapper input[type="email"] {
+	background: #fff;
+	border: 0;
+	color: #666;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	box-shadow: inset 5px 4px 4px #d0d0d0;
+	-moz-box-shadow: inset 5px 4px 4px #d0d0d0;
+	-webkit-box-shadow: inset 1px 1px 5px #d0d0d0;
+	padding: 5px;
+	float: left;
+}
+
+.optin_submit {
+	float: left;
+}
+
+.div.moonray_forms fieldset { border: 0; padding: 0 }
+
+/*END CAPTURE*/
+
+/*HOME NEWS SECTION */
+
+.full-width-box {
+	background-color: grey;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.half-width-square {
+	background-color: grey;
+	margin-top: 15px;
+	height: 370px;
+	margin-bottom: 15px;
+}
+
+#instafeed {
+	height: 370px;
+}
+
+/*END HOME NEWS SECTION */
+
 .header-image {
 	width: 100%;
 }
@@ -199,7 +298,7 @@ footer {
 	width:100%;
 	height:648px;
 	overflow: hidden;
-	background: url(img/hero.JPG);
+	background: url(img/sky.JPG);
 	background-position: center;
 	background-size: cover;
 }
@@ -371,7 +470,6 @@ h1.header-text {
 	font-family: 'Crimson Text', serif;
 	text-align: center;
 	font-size: 35px;
-	padding-top: 50px;
 	line-height: 51px;
 }
 
