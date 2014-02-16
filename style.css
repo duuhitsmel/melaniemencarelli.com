@@ -228,11 +228,11 @@ footer {
 
 #email-banner {
 	width: 100%;
-	height: 125px;
+	height: 145px;
 	background-color: rgba(255,255,255,.3);
 	margin:	0 auto;
 	position: absolute;
-	bottom: 54px;
+	bottom: 0;
 }
 
 .box-800 {
@@ -333,6 +333,41 @@ p.email-copy {
 	height: 242px;
 }
 
+.pink {
+	background-color: #c36162;
+}
+
+.quote-author {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: white;
+	padding-bottom: 25px;
+}
+
+.home-quote {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 1px;
+	width: 696px;
+	margin: 0 auto;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.quote-oftheweek {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #96393a;
+	padding-top: 30px;
+}
 
 /*END HOME NEWS SECTION */
 
@@ -347,6 +382,7 @@ p.email-copy {
 	background: url(img/sky.jpg);
 	background-position: center;
 	background-size: cover;
+	position: relative;
 }
 
 .header-image-about {
@@ -434,6 +470,13 @@ h1.header-text {
 	color: white;
 	padding-top: 35px;
 	letter-spacing: 2px;
+	transition: color ease 0.4s;
+	
+}
+
+.our-menu-item:hover
+{
+	color: white;
 }
 
 
@@ -446,7 +489,7 @@ h1.header-text {
 
 .navbar-nav>li>a:hover {
 	background-color: inherit;
-	color: rgba(255,255,255,.8);
+	color: rgba(255,255,255,.7);
 	text-decoration: none;
 }
 .navbar-brand {
@@ -512,13 +555,6 @@ h1.header-text {
 	line-height: 45px;
 }
 
-.home-quote {
-	font-family: 'Crimson Text', serif;
-	text-align: center;
-	font-size: 35px;
-	line-height: 51px;
-}
-
 .quote-2 {
 	font-family: 'Crimson Text', serif;
 	font-style: italic;
@@ -544,15 +580,6 @@ h3.quote-marks {
 	color: #c9bc99;
 	padding-bottom: 0;
 	padding-top: 40px;
-}
-
-.quote-author {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	font-size: 12px;
-	letter-spacing: 1px;
-	color: #949494;
-	padding-bottom: 50px;
 }
 
 .continue-blog {
@@ -706,5 +733,20 @@ a:hover {
 
 .read_more_container {
 	padding-top: 25px;
+}
+
+.email-signup-input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+.email-signup-button
+{
+-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
 }
 
