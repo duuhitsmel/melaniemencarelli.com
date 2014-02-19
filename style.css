@@ -371,6 +371,63 @@ p.email-copy {
 
 /*END HOME NEWS SECTION */
 
+/*THREE IMAGE PANEL*/
+
+#three-grid-1 {
+	width: 250px;
+	float: left;
+	margin: 100px 25px 100px 0;
+}
+
+#three-grid-2 {
+	width: 250px;
+	float: left;
+	margin: 100px 25px 100px 0;
+}
+
+#three-grid-3 {
+	width: 250px;
+	float: left;
+	margin: 100px 0 100px 0;
+}
+
+.three-grid-about {
+	position: relative;
+	bottom: 85px;
+	font-family: 'Montserrat', sans-serif;
+	size: 16px;
+	color: white;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.three-grid-coaching {
+	position: relative;
+	bottom: 85px;
+	font-family: 'Montserrat', sans-serif;
+	size: 16px;
+	color: white;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+
+.three-grid-thoughts {
+	position: relative;
+	bottom: 85px;
+	font-family: 'Montserrat', sans-serif;
+	size: 16px;
+	color: white;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+
+/*end THREE IMAGE PANEL*/
+
+
+/*END HOME*/
+
 .header-image {
 	width: 100%;
 }
