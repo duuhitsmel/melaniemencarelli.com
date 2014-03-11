@@ -7,7 +7,6 @@
 	width: 100%;
 	height: auto;
     width: auto\9; /* ie8 */
-    margin-top: 50px;
 }
 
 .blog-preview:hover {
@@ -18,6 +17,10 @@
 	font-weight: bold;
 	color: #c36162;
 	margin-top: 20px;
+}
+
+.bottom-150 {
+	margin-bottom: 150px;
 }
 
 .box {
@@ -32,7 +35,35 @@
 	border: 1px solid #000;
 	text-align: center;
 	width: 220px;
-	margin-top: 100px;
+	margin-top: 50px;
+	margin-bottom: 75px;
+}
+
+.top-125 {
+	margin-top: 125px;
+}
+
+.top-75 {
+	margin-top: 75px;
+}
+
+.box-larger {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 16px 25px 13px;
+	border: 1px solid #000;
+	text-align: center;
+	width: 300px;
+	margin-top: 50px;
+}
+
+.lastest {
+	margin-bottom: 50px;
 }
 
 /*TYPOGRAPHY (HOME) */
@@ -54,6 +85,12 @@ h2 {
 	margin: 70px 0 70px 0;
 	color: #c36162;
 }
+
+.white-type {
+	color: white;
+}
+
+/*END TYPOGRAPHY (HOME) */
 
 .container {
 	width:800px;
@@ -273,14 +310,22 @@ body {
 	bottom: 0;
 }
 
+#email {
+	border: 0;
+clip: rect(0 0 0 0);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+}
+
 .box-800 {
 	width: 800px;
 	margin: 0 auto;
 }
 
-.form-box {
-	width: 800px;
-}
 
 p.email-copy {	
 	font-family: 'Montserrat', sans-serif;
@@ -460,6 +505,10 @@ p.email-copy {
 	text-align: center;
 }
 
+.mail-form-mailchimp {
+	margin-bottom: 50px;
+}
+
 
 /*end THREE IMAGE PANEL*/
 
@@ -482,9 +531,9 @@ p.email-copy {
 
 .breaker-image-home {
 	width: 100%;
-	height: 300px;
+	height: 500px;
 	overflow: hidden;
-	background: url(img/sky.jpg);
+	background: url(img/hero_2.png);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -859,14 +908,29 @@ a:hover {
 
 /*BTN*/
 
-.form-control {
-	float: left;
-	width: 40%;
-	margin: 10px 25px 10px 0;
+.form {
+	width: 500px;
+	margin: 0 auto;
 }
 
-.btn {
+.form-control {
+	width: 75%;
 	float: left;
-	margin: 10px 25px 10px 0;
+	height: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 }
+
+.btn-submit{
+	float: right;
+	width: 20%;
+	height: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+#submit {
+	margin: 0 auto;
+}
+
 /*END BTN*/
