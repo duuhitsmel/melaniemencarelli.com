@@ -402,17 +402,27 @@ p.email-copy {
 
 /*END HOME*/
 
+.container-header-e {
+	height: 100%;
+}
+
 .header-image {
 	width: 100%;
 }
 
 .header-image-home {
 	width:100%;
-	height:550px;
+	height:99.99%;
 	overflow: hidden;
 	background: url(img/wheat-2.png);
-	background-position: center;
 	background-size: cover;
+	position: relative;
+}
+
+#handlettering {
+	margin: 0 auto;
+	width: 800px;
+	top: 20%;
 	position: relative;
 }
 
@@ -508,11 +518,13 @@ h1.header-text {
 .navbar-header {
 	margin-left: 50px;
 	margin-top: 20px;
+	float: left;
 }
 
 .navbar-tabs {
 	margin-top: 20px;
 	margin-right: 50px;
+	float: right;
 }
 
 
@@ -520,7 +532,7 @@ h1.header-text {
 .our-menu-item {
 	font-family: 'Montserrat', sans-serif;
 	size: 9px;
-	width: 	140px;
+	width: 	175px;
 	text-align: center;
 	color: white;
 	padding-top: 35px;
