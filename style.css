@@ -1,3 +1,72 @@
+/* START : INTENTION BANNER */
+
+.breaker-image-home {
+	width: 100%;
+	height: 460px;
+	overflow: hidden;
+	background-color: #6055ee;
+	position: relative;
+}
+	
+.white-type {
+	color: white;
+}
+
+.top-150 {
+	margin-top: 150px;
+}
+
+.top-75 {
+	margin-top: 75px;
+}
+
+
+/* END : INTENTION BANNER */
+
+
+/* START : PHILOSOPHY */
+
+#grey-chart {
+	background: #EEEEEE;
+	height: 250px;
+	width: 350px;
+}
+
+.btm-150 {
+	margin-bottom: 150px;
+}
+
+/* END : PHILOSOPHY */
+
+
+/* START : YOUME */
+.youme {
+	width: 100%;
+	height: 460px;
+	overflow: hidden;
+	background-color: #f2f2f2;
+	position: relative;
+}
+
+.top-50 {
+	margin-top: 50px;
+}
+/* end : YOUME */
+
+/* start : BREAKER 2 */
+
+.breaker-2 {
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	background: url(img/flowers.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+/* end : BREAKER 2 */
+
+
 .header-blog {
 	width: 600px;
 	margin-bottom: 50px;
@@ -48,8 +117,8 @@
 	margin-top: 125px;
 }
 
-.top-75 {
-	margin-top: 75px;
+.top-150 {
+	margin-top: 150px;
 }
 
 .box-larger {
@@ -89,25 +158,20 @@
 /*TYPOGRAPHY (HOME) */
 
 h1 {
-	font-family: 'Montserrat', sans-serif;
-	line-height: 50px;
-	font-size: 35px;
+	font-family: 'Lora', 'serif';
 	text-align: center;
-	margin: 70px 0 70px 0;
-	color: #c36162;
+	font-size: 36px;
+	line-height: 60px;
+	padding-top: 30px;
+	color: white;
 }
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
-	line-height: 40px;
 	font-size: 20px;
-	text-align: center;
-	margin: 70px 0 70px 0;
-	color: #c36162;
-}
-
-.white-type {
-	color: white;
+	line-height: 20px;
+	letter-spacing: 2px;
+	font-weight: normal;
 }
 
 /*END TYPOGRAPHY (HOME) */
@@ -122,8 +186,8 @@ h2 {
 	margin: 0 auto;
 }
 
-.container-800 {
-	width: 800px;
+.container-1000 {
+	width: 1000px;
 	margin: 0 auto;
 }
 
@@ -426,17 +490,6 @@ p.email-copy {
 	position: relative;
 }
 
-.breaker-image-home {
-	width: 100%;
-	height: 400px;
-	overflow: hidden;
-	background: url(img/home_breaker_a.png);
-	background-position: center;
-	background-size: cover;
-	position: relative;
-
-}
-
 .me-intro {
 	bottom: 100px;
 	width: 100%;
@@ -593,14 +646,6 @@ h1.header-text {
 	margin: 0 auto;
 }
 
-.quote {
-	font-family: 'Crimson Text', serif;
-	font-style: italic;
-	text-align: center;
-	font-size: 40px;
-	padding-top: 30px;
-	color: #af3147;
-}
 
 .social-link {
 	padding-top: 30px;
