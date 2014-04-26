@@ -1,43 +1,3 @@
-/* start : HERO */
-
-#handlettering {
-	margin: 0 auto;
-	width: 800px;
-	top: 20%;
-	position: relative;
-}
-
-.navbar-nav>li>a {
-	padding-top: 22px;	
-	padding-right: 0;
-	padding-left: 0;
-}
-
-.navbar-nav>li>a:hover {
-	background-color: inherit;
-	color: rgba(255,255,255,.7);
-	text-decoration: none;
-}
-.navbar-brand {
-	padding-right: 100px;
-}
-
-.navbar>.container .navbar-brand {
-		padding-top: 29px;
-}
-
-a {
-	color: #333333;
-}
-
-a:hover {
-	color: #333333;
-	text-decoration: none;
-}
-
-
-/* end: HERO */
-
 /* START : INTENTION BANNER */
 
 .breaker-image-home {
@@ -59,7 +19,6 @@ a:hover {
 .top-75 {
 	margin-top: 75px;
 }
-
 
 
 /* END : INTENTION BANNER */
@@ -106,163 +65,6 @@ a:hover {
 	position: relative;
 }
 /* end : BREAKER 2 */
-
-/* start : COACHING INFO */
-
-.coaching-info {
-
-}
-
-.coaching-left {
-	float: left;
-}
-
-.coaching-right {
-	float: left;
-}
-
-/* end : COACHING INFO */
-
-/* start : FIRST FORM */
-
-.first-form {
-	width: 100%;
-	height: 350px;
-	overflow: hidden;
-	background-color: #f2f2f2;
-	position: relative;
-}
-
-h3 {
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-	font-size: 20px;
-	line-height: 20px;
-	font-weight: normal;
-}
-
-.btm-75 {
-	margin-bottom: 75px;
-}
-
-.btm-25 {
-	margin-bottom: 25px;
-}
-
-/*BTN*/
-
-.form {
-	width: 500px;
-	margin: 0 auto;
-}
-
-.form-control {
-	width: 75%;
-	float: left;
-	height: 45px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	border: 1px solid #ddd;
-}
-
-.btn-default {
-	background-color: #6055ee;
-	border-color: #6055ee;
-	color: white;
-}
-
-.btn-default:hover {
-	background-color: #5246ec;
-	border-color: #5246ec;
-	color: white;
-}
-
-.btn-submit{
-	float: right;
-	width: 20%;
-	height: 45px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-}
-
-#submit {
-	margin: 0 auto;
-}
-
-/*END BTN*/
-
-/* end : FIRST FORM */
-
-/* start : THE BIG E */
-
-.big-image-breaker {
-	width:100%;
-	height:1800px;
-	overflow: hidden;
-	background: url(img/large-quote-breaker.png);
-	background-size: cover;
-	position: relative;
-}
-
-/* end : THE BIG E */
-
-
-/* start : MY JOURNEY */
-
-.about-me {
-	padding-left: 50px;
-}
-
-.xoxo {
-	margin-left: 15px;
-}
-
-/* end : MY JOURNEY */
-
-/* start : SECOND FORM */
-
-.second-form {
-	width: 100%;
-	height: 350px;
-	overflow: hidden;
-	background-color: #6055ee;
-	position: relative;
-}
-
-.btn-default-2 {
-	background-color: #4336eb;
-	border-color: #4336eb;
-	color: white;
-}
-
-.btn-default-2:hover {
-	background-color: #5246ec;
-	border-color: #5246ec;
-	color: white;
-}
-
-/* end : SECOND FORM */
-
-/* start : FOOTER-2 */
-.footer-2 {
-	background-color: #333333;
-	height: 400px;
-}
-
-.social-icon {
-	margin: 10px 10px 15px -15px;
-	transition: color ease 0.4s;
-}
-
-.social-icon:hover {
-	opacity:0.5;
-}
-
-/* end : FOOTER-2 */
-
-
-
-
 
 
 .header-blog {
@@ -358,10 +160,10 @@ h3 {
 h1 {
 	font-family: 'Lora', 'serif';
 	text-align: center;
-	font-size: 34px;
-	font-weight: normal;
+	font-size: 36px;
 	line-height: 60px;
 	padding-top: 30px;
+	color: white;
 }
 
 h2 {
@@ -370,10 +172,6 @@ h2 {
 	line-height: 20px;
 	letter-spacing: 2px;
 	font-weight: normal;
-}
-
-.white {
-	color: white;
 }
 
 /*END TYPOGRAPHY (HOME) */
@@ -424,6 +222,14 @@ h2 {
 	margin: 0 auto;
 }
 
+.social-icon {
+	margin: 10px 10px 15px 10px;
+	transition: color ease 0.4s;
+}
+
+.social-icon:hover {
+	opacity:0.5;
+}
 
 
 
@@ -677,6 +483,12 @@ p.email-copy {
 	position: relative;
 }
 
+#handlettering {
+	margin: 0 auto;
+	width: 800px;
+	top: 20%;
+	position: relative;
+}
 
 .me-intro {
 	bottom: 100px;
@@ -710,6 +522,12 @@ p.email-copy {
 	background: url(img/hero.jpg);
 	background-position: center;
 	background-size: cover;
+}
+
+#handlettering {
+	margin: 0 auto;
+	width: 800px;
+	padding-top: 100px;
 }
 
 .header-image-blog {
@@ -783,7 +601,24 @@ h1.header-text {
 
 
 
+.navbar-nav>li>a {
+	padding-top: 22px;	
+	padding-right: 0;
+	padding-left: 0;
+}
 
+.navbar-nav>li>a:hover {
+	background-color: inherit;
+	color: rgba(255,255,255,.7);
+	text-decoration: none;
+}
+.navbar-brand {
+	padding-right: 100px;
+}
+
+.navbar>.container .navbar-brand {
+		padding-top: 29px;
+}
 
 .header-logo
 {
@@ -934,6 +769,11 @@ div.horizontalRule-blog {
     margin-bottom:25px;
 }
 
+.about-me {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
 h3.about-left-copy {
 	padding-top: 50px;
 	font-family: 'Crimson Text', serif;
@@ -970,7 +810,13 @@ p {
 	line-height: 30px;
 }
 
+a {
+	color: #af3147;
+}
 
+a:hover {
+	color: #af3147;
+}
 
 .about-copy {
 	padding-top: 50px;
@@ -1017,3 +863,31 @@ p {
 }
 
 
+/*BTN*/
+
+.form {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.form-control {
+	width: 75%;
+	float: left;
+	height: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.btn-submit{
+	float: right;
+	width: 20%;
+	height: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+#submit {
+	margin: 0 auto;
+}
+
+/*END BTN*/
