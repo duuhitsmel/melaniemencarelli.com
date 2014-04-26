@@ -26,6 +26,15 @@
 		padding-top: 29px;
 }
 
+a {
+	color: #333333;
+}
+
+a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
 
 /* end: HERO */
 
@@ -961,13 +970,7 @@ p {
 	line-height: 30px;
 }
 
-a {
-	color: #af3147;
-}
 
-a:hover {
-	color: #af3147;
-}
 
 .about-copy {
 	padding-top: 50px;
