@@ -67,14 +67,22 @@ a:hover {
 
 /* START : PHILOSOPHY */
 
-#grey-chart {
-	background: #EEEEEE;
-	height: 250px;
-	width: 350px;
-}
 
 .btm-150 {
 	margin-bottom: 150px;
+}
+
+.breaker-image {
+	float: left;
+}
+
+.breaker-name {
+	float: left;
+	margin: 20px 0 0 25px;
+}
+
+.mindbodysoul {
+	margin-left: 25px;
 }
 
 /* END : PHILOSOPHY */
@@ -121,6 +129,10 @@ a:hover {
 	float: left;
 }
 
+.mbs-icon {
+	margin: 25px 0 0 50px;
+}
+
 /* end : COACHING INFO */
 
 /* start : FIRST FORM */
@@ -133,12 +145,9 @@ a:hover {
 	position: relative;
 }
 
-h3 {
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-	font-size: 20px;
-	line-height: 20px;
-	font-weight: normal;
+.btn-primary {
+	background-color: #f2f2f2;
+	border-color: #f2f2f2;
 }
 
 .btm-75 {
@@ -217,6 +226,10 @@ h3 {
 	margin-left: 15px;
 }
 
+.margintop-50 {
+	margin-top: 50px;
+}
+
 /* end : MY JOURNEY */
 
 /* start : SECOND FORM */
@@ -239,6 +252,10 @@ h3 {
 	background-color: #5246ec;
 	border-color: #5246ec;
 	color: white;
+}
+
+.top-100 {
+	margin-top: 100px;
 }
 
 /* end : SECOND FORM */
@@ -364,7 +381,35 @@ h1 {
 	padding-top: 30px;
 }
 
+h1 {
+	font-family: 'Montserrat', 'serif';
+	text-align: center;
+	font-size: 80px;
+	color: white;
+	font-weight: normal;
+	letter-spacing: 2px;
+	line-height: 60px;
+	padding-top: 200px;
+}
+
 h2 {
+	font-family: 'Lora', 'serif';
+	text-align: center;
+	font-size: 34px;
+	font-weight: normal;
+	line-height: 60px;
+	padding-top: 30px;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-weight: normal;
+}
+
+h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	line-height: 20px;
@@ -841,14 +886,6 @@ h1.header-text {
 	line-height: 40px;
 }
 
-h3.quote-marks {
-	font-family: 'Crimson Text', serif;
-	text-align: center;
-	font-size: 35px;
-	color: #c9bc99;
-	padding-bottom: 0;
-	padding-top: 40px;
-}
 
 .quote-contact {
 	font-family: 'Crimson Text', serif;
@@ -934,14 +971,6 @@ div.horizontalRule-blog {
     margin-bottom:25px;
 }
 
-h3.about-left-copy {
-	padding-top: 50px;
-	font-family: 'Crimson Text', serif;
-	font-style: italic;
-	font-size: 35px;
-	padding-top: 0;
-	color: #af3147;
-}
 
 .blog-title {
 	padding-top: 50px;
